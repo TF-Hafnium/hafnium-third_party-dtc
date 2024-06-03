@@ -13,6 +13,7 @@ config("libfdt_config") {
   cflags = [
     "-Wno-zero-length-array",
     "-Wno-extra-semi",
+    "-Wno-sign-compare",
   ]
 }
 
