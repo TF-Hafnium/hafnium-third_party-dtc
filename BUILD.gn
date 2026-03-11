@@ -5,7 +5,7 @@
 # https://opensource.org/licenses/BSD-3-Clause.
 
 config("libfdt_config") {
-  visibility = [ ":gtest" ]
+  visibility = [ ":libfdt" ]
   include_dirs = [
     "libfdt",
     "hafnium_inc",
